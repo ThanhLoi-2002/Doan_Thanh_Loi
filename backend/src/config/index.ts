@@ -1,0 +1,12 @@
+const SALT_WORK_FACTOR: number = 10;
+
+// JWT
+const ACCESS_TOKEN_TTL: string = '30m';
+
+const ACCESS_TOKEN_SECRET = "ACCESS_TOKEN_SECRET";
+
+export {
+  SALT_WORK_FACTOR,
+  ACCESS_TOKEN_TTL,
+  ACCESS_TOKEN_SECRET,
+};
